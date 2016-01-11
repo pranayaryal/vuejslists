@@ -29,40 +29,24 @@
 
     </div>
 
-    <template id="counter-template">
-        <h1>{{ subject }}</h1>
-        <button @click="count +=1">Increment: {{ count }}</button>
+    <template id="tasks-template">
+
     </template>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.13/vue.js"></script>
 <script>
 
-    Vue.component('counter', {
-        template: '#counter-template',
+    Vue.component('tasks', {
+        template: '#tasks-template',
 
-        props: ['subject'],
 
-        data: function () {
-
-            return {count: 0};
-        }
     });
 
     new Vue({
         el: '#app',
 
-        data: {
-            count: 0
-        },
 
-        methods: {
-            handleIt: function () {
-                alert('Handled');
-            },
-
-
-        }
 
     });
 </script>

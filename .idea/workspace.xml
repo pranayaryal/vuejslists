@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8eb42ce4-0cd9-4b3f-a406-c0e02d8a3105" name="Default" comment="" />
+    <list default="true" id="8eb42ce4-0cd9-4b3f-a406-c0e02d8a3105" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <ignored path="vuejs.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -24,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7583082">
-              <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -44,6 +48,7 @@
       <list>
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -87,8 +92,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -109,6 +112,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -167,7 +172,7 @@
     <frame x="-1088" y="-1088" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14464024" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14427084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -207,7 +212,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
-          <folding />
+          <folding>
+            <marker date="1452525680021" expanded="true" signature="31:923" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="38:251" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="259:913" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="284:679" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="487:619" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="655:672" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="770:903" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="800:846" placeholder="{&quot;template&quot;: '#tasks-template'...}" />
+            <marker date="1452525680021" expanded="true" signature="862:892" placeholder="{&quot;el&quot;: '#app'...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -215,7 +230,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1452525680021" expanded="true" signature="31:923" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="38:251" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="259:913" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="284:679" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="487:619" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="655:672" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="770:903" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="800:846" placeholder="{&quot;template&quot;: '#tasks-template'...}" />
+            <marker date="1452525680021" expanded="true" signature="862:892" placeholder="{&quot;el&quot;: '#app'...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -223,7 +248,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1452525680021" expanded="true" signature="31:923" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="38:251" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="259:913" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="284:679" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="487:619" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="655:672" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="770:903" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="800:846" placeholder="{&quot;template&quot;: '#tasks-template'...}" />
+            <marker date="1452525680021" expanded="true" signature="862:892" placeholder="{&quot;el&quot;: '#app'...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -231,7 +266,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1452525680021" expanded="true" signature="31:923" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="38:251" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="259:913" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="284:679" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="487:619" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="655:672" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="770:903" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="800:846" placeholder="{&quot;template&quot;: '#tasks-template'...}" />
+            <marker date="1452525680021" expanded="true" signature="862:892" placeholder="{&quot;el&quot;: '#app'...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -239,7 +284,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="72" column="84" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="84" />
-          <folding />
+          <folding>
+            <marker date="1452525680021" expanded="true" signature="31:923" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="38:251" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="259:913" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="284:679" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="487:619" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="655:672" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="770:903" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="800:846" placeholder="{&quot;template&quot;: '#tasks-template'...}" />
+            <marker date="1452525680021" expanded="true" signature="862:892" placeholder="{&quot;el&quot;: '#app'...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -247,7 +302,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
-          <folding />
+          <folding>
+            <marker date="1452525680021" expanded="true" signature="31:923" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="38:251" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="259:913" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="284:679" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="487:619" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="655:672" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="770:903" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="800:846" placeholder="{&quot;template&quot;: '#tasks-template'...}" />
+            <marker date="1452525680021" expanded="true" signature="862:892" placeholder="{&quot;el&quot;: '#app'...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -260,8 +325,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7583082">
-          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.6978852">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <marker date="1452525680021" expanded="true" signature="31:923" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="38:251" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="259:913" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="284:679" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="487:619" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="655:672" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="770:903" placeholder="..." />
+            <marker date="1452525680021" expanded="true" signature="800:846" placeholder="{&quot;template&quot;: '#tasks-template'...}" />
+            <marker date="1452525680021" expanded="true" signature="862:892" placeholder="{&quot;el&quot;: '#app'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>
