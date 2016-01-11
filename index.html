@@ -4,59 +4,69 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="app.css">
+
 
 </head>
 
 <body>
 
 <div class="container">
+    <!--<div id="app">-->
 
-    <div id="tasks">
-
-        <div>
-            <h1>Tasks</h1>
-
-
-            <ol class="list-group">
-
-                <li v-repeat="task: tasks"
-                    class="list-group-item"
-
-                        >
-
-                    {{ task.body }}
-
-                </li>
+    <!--<form action="done.html" @submit.prevent="handleIt">-->
+    <!--<button type="submit">Submit Me!</button>-->
+    <!--</form>-->
 
 
-            </ol>
+    <!--</div>-->
 
-            <form v-on="submit: addTask">
+    <div id="app">
 
-                <div class="form-group">
-                    <input v-model="newTask"
-                           class="form-control"
-                           placeholder="I need to ..."></input>
-
-
-
-                </div>
-
-                <button class="btn btn-primary">Add Task</button>
-
-            </form>
-
-        </div>
+        <counter subject="Likes"></counter>
+        <counter subject="Dislikes"></counter>
+        <counter></counter>
 
     </div>
 
-
+    <template id="counter-template">
+        <h1>{{ subject }}</h1>
+        <button @click="count +=1">Increment: {{ count }}</button>
+    </template>
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.13/vue.js"></script>
+<script>
+
+    Vue.component('counter', {
+        template: '#counter-template',
+
+        props: ['subject'],
+
+        data: function () {
+
+            return {count: 0};
+        }
+    });
+
+    new Vue({
+        el: '#app',
+
+        data: {
+            count: 0
+        },
+
+        methods: {
+            handleIt: function () {
+                alert('Handled');
+            },
 
 
-<script src = "https://cdnjs.cloudflare.com/ajax/libs/vue/0.12.16/vue.min.js"></script>
-<script src = "app.js"></script>
+        }
+
+    });
+</script>
+
 
 </body>
 
