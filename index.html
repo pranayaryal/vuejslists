@@ -4,50 +4,91 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="app.css">
+    <!--<link rel="stylesheet" href="app.css">-->
 
-
+    <style type="text/css">
+        .completed { text-decoration: line-through}
+    </style>
 </head>
 
 <body>
 
 <div class="container">
-    <!--<div id="app">-->
-
-    <!--<form action="done.html" @submit.prevent="handleIt">-->
-    <!--<button type="submit">Submit Me!</button>-->
-    <!--</form>-->
-
-
-    <!--</div>-->
-
     <div id="app">
 
-        <counter subject="Likes"></counter>
-        <counter subject="Dislikes"></counter>
-        <counter></counter>
-
+        <tasks :list="tasks"></tasks>
     </div>
 
-    <template id="tasks-template">
 
+    <template id="tasks-template">
+        <h1>My Tasks
+            <span v-show="remaining">({{ remaining }})</span>
+        </h1>
+        <ul>
+            <li :class="{ 'completed': task.completed }"
+                v-for="task in list"
+                @click="task.completed = ! task.completed"
+                >
+                {{ task.name }}
+
+                <strong @click="deleteTask(task)">X</strong>
+
+            </li>
+        </ul>
     </template>
 </div>
+
+
+
+
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.13/vue.js"></script>
 <script>
 
     Vue.component('tasks', {
-        template: '#tasks-template'
 
+        props: ['list'],
 
+        template: '#tasks-template',
+
+        computed : {
+            remaining: function () {
+
+                var vm = this;
+                return this.list.filter(this.inProgress).length;
+            }
+        },
+
+        methods: {
+            isCompleted: function (task) {
+                return task.completed;
+            },
+
+            inProgress: function (task) {
+                return ! this.isCompleted(task);
+            },
+
+            deleteTask: function (task) {
+                this.list.$remove(task);
+            }
+        }
     });
+   
 
     new Vue({
         el: '#app',
 
+        data: {
 
+            tasks : [
+                {'name': 'Go to the band ', completed: false},
+                {'name': 'Go to the doctor', completed: false},
+                {'name': 'Go to the clerk', completed: false},
+                {'name': 'Go to the pediatrician', completed: true},
 
+            ]
+        }
     });
 </script>
 
